@@ -32,7 +32,7 @@
   > | 순서 | 제목 | 내용 | 예제 코드 |
   > |:---:| :--- | :--- | :--- |
   > |1| [Builder Pattern이란?](https://goodjunha060211.tistory.com/11 "Builder 패턴이란?") | **Builder** | [Builder Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-BuilderPattern) |
-  > |2| - | **Prototype** | - |
+  > |2| [Prototype Pattern이란?](https://goodjunha060211.tistory.com/12 "Prototype 패턴이란?") | **Prototype** | - |
   > |3| - | **Factory Method** | - |
   > |4| - | **Abstract Method** | - |
   > |5| - | **Singleton** | - |
