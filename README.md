@@ -15,7 +15,7 @@ ADPattern = Architecture Pattern, Design Pattern
 <br>
 <br>
 
-## Curriculum
+## GoF Design Pattern
 
 <br>
 
