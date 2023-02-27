@@ -26,7 +26,7 @@ ADPattern = Architecture Pattern, Design Pattern
 
 <br>
 
-* **챕터 2: GoF 생성 패턴**
+* **챕터 II: GoF 생성 패턴**
   > | 순서 | 제목 | 내용 | 예제 코드 |
   > |:---:| :--- | :--- | :--- |
   > |1| - | **Builder** | - |
@@ -37,7 +37,7 @@ ADPattern = Architecture Pattern, Design Pattern
 
 <br>
 
-* **챕터 3: GoF 구조 패턴**
+* **챕터 III: GoF 구조 패턴**
   > | 순서 | 제목 | 내용 | 예제 코드 |
   > |:---:| :--- | :--- | :--- |
   > |1| - | **Bridge** | - |
@@ -50,7 +50,7 @@ ADPattern = Architecture Pattern, Design Pattern
 
 <br>
 
-* **챕터 3: GoF 행위 패턴**
+* **챕터 IIII: GoF 행위 패턴**
   > | 순서 | 제목 | 내용 | 예제 코드 |
   > |:---:| :--- | :--- | :--- |
   > |1| - | **Interpreter** | - |
