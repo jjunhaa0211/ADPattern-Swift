@@ -1,6 +1,5 @@
 # ADPattern-Swift
 - (Architecture Pattern, Design Pattern)
-iOS 개발을 하면서 디자인 패턴에 흥미가 생겼습니다. 하지만 왜 써야하는지 모르고 쓰는 저를 위해서 자료를 정리했습니다.
 
 제가 아직은 초보이다 보니까 내용 정리 및 코드에 문제가 있으면 언제나 PR 날려주시면 바로 고치겠습니다!! 😅
 
