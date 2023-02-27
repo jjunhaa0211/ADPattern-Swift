@@ -1,5 +1,5 @@
 # ADPattern-Swift
-Architecture Pattern, Design Pattern
+ADPattern = Architecture Pattern, Design Pattern
 <br>
 <br>
 제가 아직은 초보이다 보니까 내용 정리 및 코드에 문제가 있으면 언제나 PR 날려주시면 바로 고치겠습니다!! 😅
