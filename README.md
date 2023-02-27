@@ -33,7 +33,7 @@
   > |:---:| :--- | :--- | :--- |
   > |1| [Builder Pattern이란?](https://goodjunha060211.tistory.com/11 "Builder 패턴이란?") | **Builder** | [Builder Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-BuilderPattern) |
   > |2| [Prototype Pattern이란?](https://goodjunha060211.tistory.com/12 "Prototype 패턴이란?") | **Prototype** | [Prototype Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-PrototypePattern) |
-  > |3| - | **Factory Method** | - |
+  > |3| [Factory Method Pattern이란?](https://goodjunha060211.tistory.com/13 "Factory Method Pattern 패턴이란?") | **Factory Method** | [Factory Method Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-FactoryMethodPattern) |
   > |4| - | **Abstract Method** | - |
   > |5| - | **Singleton** | - |
 
