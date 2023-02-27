@@ -16,3 +16,4 @@ ADPattern = Architecture Pattern, Design Pattern
 <br>
 
 # GoF 디자인 패턴
+[GoF 디자인 패턴이란?](https://goodjunha060211.tistory.com/10 "GoF의 기초 설명")
