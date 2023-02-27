@@ -1,5 +1,5 @@
 # ADPattern-Swift
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjjunhaa0211%2FADPattern-Swift&count_bg=%231436E3&title_bg=%23000000&icon=jekyll.svg&icon_color=%23A8ED84&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjjunhaa0211%2FADPattern-Swift&count_bg=%232AA0E7&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 >ADPattern = Architecture Pattern, Design Pattern
 <br>
 <br>
