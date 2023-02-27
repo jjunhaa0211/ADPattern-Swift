@@ -17,7 +17,21 @@ ADPattern = Architecture Pattern, Design Pattern
 
 ## Curriculum
 
+<br>
+
 * **챕터 I: GoF 디자인 패턴**
   > | 순서 | 제목 | 내용 |
   > |:---:| :--- | :--- |
-  > |1|[GoF 디자인 패턴이란?](https://goodjunha060211.tistory.com/10 "GoF의 기초 설명") | **GoF의 개념 설명을 합니다**
+  > |1|[GoF 디자인 패턴이란?](https://goodjunha060211.tistory.com/10 "GoF의 기초 설명") | **GoF의 개념 설명합니다.**
+
+<br>
+
+* **챕터 2: GoF 생성 패턴**
+  > | 순서 | 제목 | 내용 |
+  > |:---:| :--- | :--- |
+  > |1| - | **Builder을 설명합니다.**
+  > |2| - | **Prototype을 설명합니다.**
+  > |3| - | **Factory Method를 설명합니다.**
+  > |4| - | **Abstract Method를 설명합니다.**
+  > |5| - | **Singleton을 설명합니다.**
+
