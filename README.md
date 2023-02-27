@@ -29,9 +29,22 @@ ADPattern = Architecture Pattern, Design Pattern
 * **챕터 2: GoF 생성 패턴**
   > | 순서 | 제목 | 내용 |
   > |:---:| :--- | :--- |
-  > |1| - | **Builder을 설명합니다.**
-  > |2| - | **Prototype을 설명합니다.**
-  > |3| - | **Factory Method를 설명합니다.**
-  > |4| - | **Abstract Method를 설명합니다.**
-  > |5| - | **Singleton을 설명합니다.**
+  > |1| - | **Builder**
+  > |2| - | **Prototype**
+  > |3| - | **Factory Method**
+  > |4| - | **Abstract Method**
+  > |5| - | **Singleton**
+
+<br>
+
+* **챕터 3: GoF 구조 패턴**
+  > | 순서 | 제목 | 내용 |
+  > |:---:| :--- | :--- |
+  > |1| - | **Bridge**
+  > |2| - | **Decorator**
+  > |3| - | **Facade**
+  > |4| - | **Flyweight**
+  > |5| - | **Proxy**
+  > |6| - | **Composite** 
+  > |7| - | **Adapter**
 
