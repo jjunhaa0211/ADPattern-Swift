@@ -2,8 +2,6 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjjunhaa0211%2FADPattern-Swift&count_bg=%232AA0E7&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 >ADPattern = Architecture Pattern, Design Pattern
 <br>
-제가 아직은 초보자이기 때문에 내용정리 및 코드에 문제가 있으면 언제나 PR 날려주시면 바로 고치겠습니다!! 😅
-<br>
 <br>
 
 ```
@@ -13,6 +11,8 @@
 ```
 
 <br>
+제가 아직은 초보자이기 때문에 내용정리 및 코드에 문제가 있으면 언제나 PR 날려주시면 바로 고치겠습니다!! 😅
+
 이 레포가 서로 성장하는 계기가 되었으면 좋겠습니다..!! 👊
 <br>
 <br>
