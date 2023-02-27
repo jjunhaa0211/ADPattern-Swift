@@ -1,5 +1,6 @@
 # ADPattern-Swift
-ADPattern = Architecture Pattern, Design Pattern
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter)](https://github.com/fimuxd/RxSwift)
+>ADPattern = Architecture Pattern, Design Pattern
 <br>
 <br>
 제가 아직은 초보이다 보니까 내용 정리 및 코드에 문제가 있으면 언제나 PR 날려주시면 바로 고치겠습니다!! 😅
