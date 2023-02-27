@@ -7,6 +7,7 @@
 
 import Foundation
 
+//출력되는 라벨설정
 final class IPhoneLabel: CLable {
     var title: String = "iPhoneLabel"
 }

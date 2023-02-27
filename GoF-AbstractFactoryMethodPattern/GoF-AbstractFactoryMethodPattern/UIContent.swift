@@ -7,13 +7,13 @@
 
 import Foundation
 
-//Factory를 통해 UI를 만들고 가지고 있는 Class
+//Factory를 통해 가지고 오는 UIContent 설정
 class UIContent {
     var abstractFactory: AbstractFactory
     var label: CLable?
     var button: CButton?
 
-    //사용할 UI의 Default 값은 iPhone
+    //Default 값은 iPhone
     init(a: AbstractFactory = iPhoneUIFactory()) {
         self.abstractFactory = a
         setup()

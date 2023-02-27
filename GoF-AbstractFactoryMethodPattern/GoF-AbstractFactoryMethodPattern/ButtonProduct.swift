@@ -7,7 +7,7 @@
 
 import Foundation
 
-// 실제로 생성될 구체 Product, 객체가 가질 기능과 상태를 구현
+// Product를 구현하고 안에 들어가는 함수 구현하는 곳
 final class IPhoneButton: CButton {
     func touchUP() {
         print("iPhoneButton")
