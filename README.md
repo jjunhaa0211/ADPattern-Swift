@@ -27,24 +27,40 @@ ADPattern = Architecture Pattern, Design Pattern
 <br>
 
 * **챕터 2: GoF 생성 패턴**
-  > | 순서 | 제목 | 내용 |
-  > |:---:| :--- | :--- |
-  > |1| - | **Builder**
-  > |2| - | **Prototype**
-  > |3| - | **Factory Method**
-  > |4| - | **Abstract Method**
-  > |5| - | **Singleton**
+  > | 순서 | 제목 | 내용 | 예제 코드 |
+  > |:---:| :--- | :--- | :--- |
+  > |1| - | **Builder** | - |
+  > |2| - | **Prototype** | - |
+  > |3| - | **Factory Method** | - |
+  > |4| - | **Abstract Method** | - |
+  > |5| - | **Singleton** | - |
 
 <br>
 
 * **챕터 3: GoF 구조 패턴**
-  > | 순서 | 제목 | 내용 |
-  > |:---:| :--- | :--- |
-  > |1| - | **Bridge**
-  > |2| - | **Decorator**
-  > |3| - | **Facade**
-  > |4| - | **Flyweight**
-  > |5| - | **Proxy**
-  > |6| - | **Composite** 
-  > |7| - | **Adapter**
+  > | 순서 | 제목 | 내용 | 예제 코드 |
+  > |:---:| :--- | :--- | :--- |
+  > |1| - | **Bridge** | - |
+  > |2| - | **Decorator** | - |
+  > |3| - | **Facade** | - |
+  > |4| - | **Flyweight** | - |
+  > |5| - | **Proxy** | - |
+  > |6| - | **Composite** | - |
+  > |7| - | **Adapter** | - |
+
+<br>
+
+* **챕터 3: GoF 행위 패턴**
+  > | 순서 | 제목 | 내용 | 예제 코드 |
+  > |:---:| :--- | :--- | :--- |
+  > |1| - | **Interpreter** | - |
+  > |2| - | **Template Method** | - |
+  > |3| - | **Chain of Responsibility** | - |
+  > |4| - | **Command** | - |
+  > |5| - | **Iterator** | - |
+  > |6| - | **Mediator** | - |
+  > |7| - | **Observer** | - |
+  > |8| - | **State** | - |
+  > |9| - | **Strategy** | - |
+  > |10| - | **Visitor** | - |
 
