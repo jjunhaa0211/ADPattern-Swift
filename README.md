@@ -34,7 +34,7 @@
   > |2| [Prototype Pattern이란?](https://goodjunha060211.tistory.com/12 "Prototype 패턴이란?") | **Prototype** | [Prototype Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-PrototypePattern) |
   > |3| [Factory Method Pattern이란?](https://goodjunha060211.tistory.com/13 "Factory Method Pattern 패턴이란?") | **Factory Method** | [Factory Method Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-FactoryMethodPattern) |
   > |4| [Abstract Factory Method Pattern이란?](https://goodjunha060211.tistory.com/14 "Abstract Factory Method Pattern 패턴이란?") | **Abstract Factory Method** | [Abstract Factory Method Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-AbstractFactoryMethodPattern) |
-  > |5| - | **Singleton** | - |
+  > |5| [Singleton Pattern이란?](https://goodjunha060211.tistory.com/15 "Singleton Pattern 패턴이란?") | **Singleton** | [Singleton Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-SingletonPattern) |
   
 <br>
 
