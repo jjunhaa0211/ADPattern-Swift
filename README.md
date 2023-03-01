@@ -41,7 +41,7 @@
 * **챕터 III: GoF 구조 패턴**
   > | 순서 | 제목 | 내용 | 예제 코드 |
   > |:---:| :--- | :--- | :--- |
-  > |1| - | **Bridge** | - |
+  > |1| [Bridge Pattern이란?](https://goodjunha060211.tistory.com/16 "Bridge 패턴이란?") | **Bridge** | [Bridge Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-BridgePattern) |
   > |2| - | **Decorator** | - |
   > |3| - | **Facade** | - |
   > |4| - | **Flyweight** | - |
