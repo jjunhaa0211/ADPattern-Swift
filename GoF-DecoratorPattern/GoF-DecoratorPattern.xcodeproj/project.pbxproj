@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1D7C0E29AF81AF00ABFEDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D7C0D29AF81AF00ABFEDD /* AppDelegate.swift */; };
+		0E1D7C1029AF81AF00ABFEDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D7C0F29AF81AF00ABFEDD /* SceneDelegate.swift */; };
+		0E1D7C1229AF81AF00ABFEDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D7C1129AF81AF00ABFEDD /* ViewController.swift */; };
+		0E1D7C1529AF81AF00ABFEDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1D7C1329AF81AF00ABFEDD /* Main.storyboard */; };
+		0E1D7C1729AF81B100ABFEDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1D7C1629AF81B100ABFEDD /* Assets.xcassets */; };
+		0E1D7C1A29AF81B100ABFEDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1D7C1829AF81B100ABFEDD /* LaunchScreen.storyboard */; };
+		0E1D7C2229AF8A9900ABFEDD /* GetDressedComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D7C2129AF8A9900ABFEDD /* GetDressedComponent.swift */; };
+		0E1D7C2429AF8AB000ABFEDD /* Clothes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D7C2329AF8AB000ABFEDD /* Clothes.swift */; };
+		0E1D7C2629AF8ABD00ABFEDD /* GetDressedDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D7C2529AF8ABD00ABFEDD /* GetDressedDecorator.swift */; };
+		0E1D7C2829AF8ACC00ABFEDD /* SweaterDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D7C2729AF8ACC00ABFEDD /* SweaterDecorator.swift */; };
+		0E1D7C2A29AF8ADA00ABFEDD /* PattingDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D7C2929AF8ADA00ABFEDD /* PattingDecorator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E1D7C0A29AF81AF00ABFEDD /* GoF-DecoratorPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoF-DecoratorPattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1D7C0D29AF81AF00ABFEDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E1D7C0F29AF81AF00ABFEDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0E1D7C1129AF81AF00ABFEDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E1D7C1429AF81AF00ABFEDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E1D7C1629AF81B100ABFEDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E1D7C1929AF81B100ABFEDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E1D7C1B29AF81B100ABFEDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E1D7C2129AF8A9900ABFEDD /* GetDressedComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDressedComponent.swift; sourceTree = "<group>"; };
+		0E1D7C2329AF8AB000ABFEDD /* Clothes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothes.swift; sourceTree = "<group>"; };
+		0E1D7C2529AF8ABD00ABFEDD /* GetDressedDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDressedDecorator.swift; sourceTree = "<group>"; };
+		0E1D7C2729AF8ACC00ABFEDD /* SweaterDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweaterDecorator.swift; sourceTree = "<group>"; };
+		0E1D7C2929AF8ADA00ABFEDD /* PattingDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PattingDecorator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E1D7C0729AF81AF00ABFEDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1D7C0129AF81AF00ABFEDD = {
+			isa = PBXGroup;
+			children = (
+				0E1D7C0C29AF81AF00ABFEDD /* GoF-DecoratorPattern */,
+				0E1D7C0B29AF81AF00ABFEDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E1D7C0B29AF81AF00ABFEDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E1D7C0A29AF81AF00ABFEDD /* GoF-DecoratorPattern.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E1D7C0C29AF81AF00ABFEDD /* GoF-DecoratorPattern */ = {
+			isa = PBXGroup;
+			children = (
+				0E1D7C0D29AF81AF00ABFEDD /* AppDelegate.swift */,
+				0E1D7C0F29AF81AF00ABFEDD /* SceneDelegate.swift */,
+				0E1D7C1129AF81AF00ABFEDD /* ViewController.swift */,
+				0E1D7C2B29AF8B0800ABFEDD /* Decorator */,
+				0E1D7C2E29AF9A7500ABFEDD /* GetDressedComponent */,
+				0E1D7C2C29AF9A1E00ABFEDD /* ConcreteDecorator */,
+				0E1D7C2D29AF9A2A00ABFEDD /* Clothes */,
+				0E1D7C1329AF81AF00ABFEDD /* Main.storyboard */,
+				0E1D7C1629AF81B100ABFEDD /* Assets.xcassets */,
+				0E1D7C1829AF81B100ABFEDD /* LaunchScreen.storyboard */,
+				0E1D7C1B29AF81B100ABFEDD /* Info.plist */,
+			);
+			path = "GoF-DecoratorPattern";
+			sourceTree = "<group>";
+		};
+		0E1D7C2B29AF8B0800ABFEDD /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				0E1D7C2929AF8ADA00ABFEDD /* PattingDecorator.swift */,
+				0E1D7C2729AF8ACC00ABFEDD /* SweaterDecorator.swift */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		0E1D7C2C29AF9A1E00ABFEDD /* ConcreteDecorator */ = {
+			isa = PBXGroup;
+			children = (
+				0E1D7C2529AF8ABD00ABFEDD /* GetDressedDecorator.swift */,
+			);
+			path = ConcreteDecorator;
+			sourceTree = "<group>";
+		};
+		0E1D7C2D29AF9A2A00ABFEDD /* Clothes */ = {
+			isa = PBXGroup;
+			children = (
+				0E1D7C2329AF8AB000ABFEDD /* Clothes.swift */,
+			);
+			path = Clothes;
+			sourceTree = "<group>";
+		};
+		0E1D7C2E29AF9A7500ABFEDD /* GetDressedComponent */ = {
+			isa = PBXGroup;
+			children = (
+				0E1D7C2129AF8A9900ABFEDD /* GetDressedComponent.swift */,
+			);
+			path = GetDressedComponent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E1D7C0929AF81AF00ABFEDD /* GoF-DecoratorPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1D7C1E29AF81B100ABFEDD /* Build configuration list for PBXNativeTarget "GoF-DecoratorPattern" */;
+			buildPhases = (
+				0E1D7C0629AF81AF00ABFEDD /* Sources */,
+				0E1D7C0729AF81AF00ABFEDD /* Frameworks */,
+				0E1D7C0829AF81AF00ABFEDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoF-DecoratorPattern";
+			productName = "GoF-DecoratorPattern";
+			productReference = 0E1D7C0A29AF81AF00ABFEDD /* GoF-DecoratorPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E1D7C0229AF81AF00ABFEDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0E1D7C0929AF81AF00ABFEDD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 0E1D7C0529AF81AF00ABFEDD /* Build configuration list for PBXProject "GoF-DecoratorPattern" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E1D7C0129AF81AF00ABFEDD;
+			productRefGroup = 0E1D7C0B29AF81AF00ABFEDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E1D7C0929AF81AF00ABFEDD /* GoF-DecoratorPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E1D7C0829AF81AF00ABFEDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1D7C1A29AF81B100ABFEDD /* LaunchScreen.storyboard in Resources */,
+				0E1D7C1729AF81B100ABFEDD /* Assets.xcassets in Resources */,
+				0E1D7C1529AF81AF00ABFEDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E1D7C0629AF81AF00ABFEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1D7C1229AF81AF00ABFEDD /* ViewController.swift in Sources */,
+				0E1D7C2229AF8A9900ABFEDD /* GetDressedComponent.swift in Sources */,
+				0E1D7C0E29AF81AF00ABFEDD /* AppDelegate.swift in Sources */,
+				0E1D7C2A29AF8ADA00ABFEDD /* PattingDecorator.swift in Sources */,
+				0E1D7C2429AF8AB000ABFEDD /* Clothes.swift in Sources */,
+				0E1D7C1029AF81AF00ABFEDD /* SceneDelegate.swift in Sources */,
+				0E1D7C2829AF8ACC00ABFEDD /* SweaterDecorator.swift in Sources */,
+				0E1D7C2629AF8ABD00ABFEDD /* GetDressedDecorator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E1D7C1329AF81AF00ABFEDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E1D7C1429AF81AF00ABFEDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E1D7C1829AF81B100ABFEDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E1D7C1929AF81B100ABFEDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E1D7C1C29AF81B100ABFEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E1D7C1D29AF81B100ABFEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E1D7C1F29AF81B100ABFEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92YDTRVDUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GoF-DecoratorPattern/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GoF-DecoratorPattern";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E1D7C2029AF81B100ABFEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92YDTRVDUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GoF-DecoratorPattern/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GoF-DecoratorPattern";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E1D7C0529AF81AF00ABFEDD /* Build configuration list for PBXProject "GoF-DecoratorPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1D7C1C29AF81B100ABFEDD /* Debug */,
+				0E1D7C1D29AF81B100ABFEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1D7C1E29AF81B100ABFEDD /* Build configuration list for PBXNativeTarget "GoF-DecoratorPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1D7C1F29AF81B100ABFEDD /* Debug */,
+				0E1D7C2029AF81B100ABFEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E1D7C0229AF81AF00ABFEDD /* Project object */;
+}
