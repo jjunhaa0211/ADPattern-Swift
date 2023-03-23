@@ -1,4 +1,4 @@
-# [구조 패턴] Bridge Pattern
+# [구조 패턴] Facade Pattern
 ---
 
 ## 퍼사드 패턴이란?
