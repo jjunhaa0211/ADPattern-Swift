@@ -65,6 +65,7 @@
   > |9| - | **Strategy** | - |
   > |10| - | **Visitor** | - |
 
+---
 <br>
 ## MVC Design Pattern
 
