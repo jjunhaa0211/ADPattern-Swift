@@ -31,19 +31,19 @@
   > | 순서 | 제목 | 내용 | 예제 코드 |
   > |:---:| :--- | :--- | :--- |
   > |1| [Builder Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/GoF-Theorys/BuilderPattern-junha.md "Builder 패턴이란?") | **Builder** | [Builder Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-BuilderPattern) |
-  > |2| [Prototype Pattern이란?](https://goodjunha060211.tistory.com/12 "Prototype 패턴이란?") | **Prototype** | [Prototype Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-PrototypePattern) |
-  > |3| [Factory Method Pattern이란?](https://goodjunha060211.tistory.com/13 "Factory Method Pattern 패턴이란?") | **Factory Method** | [Factory Method Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-FactoryMethodPattern) |
-  > |4| [Abstract Factory Method Pattern이란?](https://goodjunha060211.tistory.com/14 "Abstract Factory Method Pattern 패턴이란?") | **Abstract Factory Method** | [Abstract Factory Method Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-AbstractFactoryMethodPattern) |
-  > |5| [Singleton Pattern이란?](https://goodjunha060211.tistory.com/15 "Singleton Pattern 패턴이란?") | **Singleton** | [Singleton Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-SingletonPattern) |
+  > |2| [Prototype Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/GoF-Theorys/PrototypePattern-junha.md "Prototype 패턴이란?") | **Prototype** | [Prototype Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-PrototypePattern) |
+  > |3| [Factory Method Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/GoF-Theorys/FactoryMethodPattern-junha.md "Factory Method Pattern 패턴이란?") | **Factory Method** | [Factory Method Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-FactoryMethodPattern) |
+  > |4| [Abstract Factory Method Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/GoF-Theorys/AbstractFactoryMethodPattern-junha.md "Abstract Factory Method Pattern 패턴이란?") | **Abstract Factory Method** | [Abstract Factory Method Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-AbstractFactoryMethodPattern) |
+  > |5| [Singleton Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/GoF-Theorys/SingletonPattern-junha.md "Singleton Pattern 패턴이란?") | **Singleton** | [Singleton Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-SingletonPattern) |
   
 <br>
 
 * **챕터 III: GoF 구조 패턴**
   > | 순서 | 제목 | 내용 | 예제 코드 |
   > |:---:| :--- | :--- | :--- |
-  > |1| [Bridge Pattern이란?](https://goodjunha060211.tistory.com/16 "Bridge 패턴이란?") | **Bridge** | [Bridge Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-BridgePattern) |
-  > |2| [Decorator Pattern이란?](https://goodjunha060211.tistory.com/21 "Decorator 패턴이란?") | **Decorator** | [Decorator Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-DecoratorPattern) |
-  > |3| [Facade Pattern이란?](https://goodjunha060211.tistory.com/29 "Facade 패턴이란?") | **Facade** | [Facade Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-FacadePattern) |
+  > |1| [Bridge Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/GoF-Theorys/BridgePattern-junha.md "Bridge 패턴이란?") | **Bridge** | [Bridge Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-BridgePattern) |
+  > |2| [Decorator Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/GoF-Theorys/DecoratorPattern-junha.md "Decorator 패턴이란?") | **Decorator** | [Decorator Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-DecoratorPattern) |
+  > |3| [Facade Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/GoF-Theorys/FacadePattern-junha.md "Facade 패턴이란?") | **Facade** | [Facade Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-FacadePattern) |
   > |4| - | **Flyweight** | - |
   > |5| - | **Proxy** | - |
   > |6| - | **Composite** | - |
