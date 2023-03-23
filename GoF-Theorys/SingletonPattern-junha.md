@@ -90,6 +90,6 @@ Class 3VC {
 ​
 ### 싱글턴 패턴 코드 예제
 ​
-[Builder Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-BuilderPattern)
+[Singleton Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-SingletonPattern)
 ​
 오늘도 긴 글 읽어주셔서 감사합니다.!!!!
