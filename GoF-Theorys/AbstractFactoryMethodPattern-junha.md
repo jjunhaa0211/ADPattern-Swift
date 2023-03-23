@@ -60,7 +60,7 @@ Concrete Product = iPhoneButton, iPadLabel, iPadButton, iPhoneLabel = 최종적�
 ​
 ### 추상 팩토리 메서드 예제 코드
 ​
-[Builder Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-BuilderPattern)
+[Abstract Factory Method Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-AbstractFactoryMethodPattern)
 
 ### 느낀 점 및 오류
 ​
