@@ -107,7 +107,7 @@
 * **챕터 I: 소개**
   > | 순서 | 제목 | 내용 |
   > |:---:| :--- | :--- |
-  > |1| 설계와 아키텍처란? |  |
+  > |1| 설계와 아키텍처란? | [설계와 아키텍처](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/CleanArchitecture/소개.md "1~21") |
   > |2| 두 가지 가치에 대한 이야기 |  |
 <br>
 
