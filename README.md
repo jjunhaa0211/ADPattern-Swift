@@ -100,7 +100,7 @@
 
 <br>
 
-## MVP Design Pattern
+## Clean Architecture
 
 <br>
 
