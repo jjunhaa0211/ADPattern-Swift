@@ -1,4 +1,4 @@
-# [생성 패턴] Builder Pattern
+# [생성 패턴] SingletonPattern
 ---
 
 ### 싱글턴 패턴이란?
