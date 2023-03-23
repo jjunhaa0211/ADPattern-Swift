@@ -89,7 +89,7 @@
 
 <br>
 
-## MVC Design Pattern
+## MVP Design Pattern
 
 <br>
 
