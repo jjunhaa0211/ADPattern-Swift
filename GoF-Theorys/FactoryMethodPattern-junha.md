@@ -49,6 +49,6 @@ Concrete Product = Product를 채택하며 그에 맞게 만든 실제 객체
 ​
 ###  팩토리 메서드  예제 코드
 ​
-[Builder Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-BuilderPattern)
+[FactoryMethod Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-FactoryMethodPattern)
 ​
 오늘도 긴 글 읽어주셔서 감사합니다! 좋은 하루 보내세요~
