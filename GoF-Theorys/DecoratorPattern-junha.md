@@ -1,4 +1,4 @@
-# [구조 패턴] Bridge Pattern
+# [구조 패턴] Decorator Pattern
 ---
 
 ### 데코레이터 패턴이란?
