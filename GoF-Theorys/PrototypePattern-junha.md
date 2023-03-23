@@ -38,6 +38,6 @@
 
 ### 프로토타입 패턴 예제 코드
 
-[Builder Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-BuilderPattern)
+[Prototype Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-PrototypePattern)
 
 드디어 2번째 글을 작성하게 됐습니다. 오늘도 긴 글 읽어주셔서 감사힙니다!!!
