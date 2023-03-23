@@ -53,6 +53,6 @@
 ​
 ###  브리지 패턴 예제 코드
 
-[Builder Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-BuilderPattern)
+[Bridge Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-BridgePattern)
 ​
 오늘도 수고 많으셨습니다.!!!
