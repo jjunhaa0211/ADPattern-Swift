@@ -23,7 +23,7 @@
 * **챕터 I: GoF 디자인 패턴**
   > | 순서 | 제목 | 내용 |
   > |:---:| :--- | :--- |
-  > |1|[GoF 디자인 패턴이란?](https://goodjunha060211.tistory.com/10 "GoF의 기초 설명") | **GoF의 개념 설명합니다.**
+  > |1|[GoF 디자인 패턴이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/GoF-Theorys/Gof디자인패턴-junha.md "GoF의 기초 설명") | **GoF의 개념 설명합니다.**
 
 <br>
 
