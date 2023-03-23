@@ -44,6 +44,6 @@
 ​
 ### 데코레이터 패턴 코드 예제
 ​
-[Builder Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-BuilderPattern)
+[Decorator Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-DecoratorPattern)
 ​
 오늘도 수고 많으셨습니다.
