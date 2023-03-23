@@ -48,5 +48,5 @@
 ​
 ### 퍼사드 예제 코드
 
-[Builder Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-BuilderPattern)
+[Facade Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-FacadePattern)
 
