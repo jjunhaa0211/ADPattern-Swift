@@ -1,16 +1,22 @@
 # MVP
 
 ---
+<br>
 
 우리가 보통 그냥 심심한데 개발 좀 해볼까? 할 때 하는 개발은 주로 MVC로 구현하기 때문에 MVC에 적응되어 있을 텐데 오늘은 조금 생소한 MVP를 알아보도록 하겠습니다.
 
+<br>
 
+<img width="472" alt="스크린샷 2023-04-02 오후 10 26 26" src="https://user-images.githubusercontent.com/102890390/229355730-d7c63b1d-4064-4e3b-be0b-06b7a51273e9.png">
+<img width="464" alt="스크린샷 2023-04-02 오후 10 26 39" src="https://user-images.githubusercontent.com/102890390/229355741-3e1f8202-45aa-4bfc-b3e9-859a5b6ac7b0.png">
 
 MVP란?
 
 - MVP는 Model-View-Presenter의 약자입니다.
 - 사용자 인터페이스를 모델, 뷰, 프레젠터 세 가지 역할로 나누어 관리함
 - 각 역할이 분리되어 있어 유지보수와 테스트가 용이합니다.
+
+<br>
 
 MVP의 지켜야할 규칙
 
@@ -20,11 +26,15 @@ MVP의 지켜야할 규칙
 - Presenter는 API Request 즉 중간 관리자 역활을 해야합니다.
 - ViewController는 View를 수정, 설정, 추가 합니다.
 
+<br>
+
 Model
 
 - 데이터 모델을 정의
 - 실질적인 데이터
 - 데이터 형식과 속성을 정의(데이터 수정, 추가)
+
+<br>
 
 View
 
@@ -32,11 +42,15 @@ View
 - 사용자에게 보여지는 UI요소
 - 사용자가 입력에 대한 이벤트를 Presenter에 전달하고 Presenter가 전달한 데이터를 화면에 표시
 
+<br>
+
 Presenter
 
 - UIKit과 관련이 없는 로직들을 수행
 - 사용자 응답에 반응하거나 UI를 업데이트하는 일을 담당
 - View에서 요청한 정보를 Model로 부터 가공해
+
+<br>
 
 MVP 장점
 
@@ -44,6 +58,8 @@ MVP 장점
 - Presenter를 이용하여 중건저 역활을 수행하므로, View와 Model 간의 상화 작용에 유연함
 - View와 Model을 쉽게 교체할 수 있다.
 - 유지보수성과 테스트 용이성이 향상됩니다.
+
+<br>
 
 MVP 단점
 
