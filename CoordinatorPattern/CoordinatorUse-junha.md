@@ -290,3 +290,5 @@ class AppCoordinator: Coordinator, ByeCoordinatorDelegate, HelloCoordinatorDeleg
 이렇게 간..단한? **Coordinator** 예제를 통해서 Coordinator를 알아보았는데요 실행화면을 보면 전에 present 했던 것처럼 나오지만 present는 그냥 때..려박다? 이런 느낌이면 Coordinator를 통해서 HelloViewController -> AppCoordinator -> AppCoordinator 이렇게 흐름을 제어해봤습니다. 
 
 전체 코드는 아래에 걸어두겠습니다.
+
+[코드 예제](Coordinator](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/GoF-Theorys/BridgePattern-junha.md)
