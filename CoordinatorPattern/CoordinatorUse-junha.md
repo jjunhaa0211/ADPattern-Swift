@@ -2,8 +2,6 @@
 
 ---
 
-<br>
-
 ### **Coordinator** 사용방법
 
 사용방법을 설명하기 위해서 간단한 버튼을 눌르면 다른 화면으로 전환되는 view를 만들어보겠습니다.
@@ -14,6 +12,8 @@ protocol Coordinator : class {
     func start()
 }
 ```
+
+<br>
 
 일단 **Coordinator**는 계속 사용하기 때문에 **Coordinator**를 하나 만들면 하위 **Coordinator**가 있다고 생각하시면 됩니다
 
@@ -48,6 +48,8 @@ class AppCoordinator: Coordinator {
     }
 }
 ```
+
+<br>
 
 일단 AppCoordinator는 전반적인 모든 **Coordinator**에 흐름을 조정하기 때문에 이곳이 자신이 만든 **Coordinator**들을 선언해줍니다.
 
@@ -86,6 +88,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 }
 ```
 
+<br>
+
 이런식으로 AppCoordinator를 사용해서 흐름을 제어하는 것을 볼 수 있습니다.
 
 <br>
@@ -121,7 +125,9 @@ class HelloCoordinator: Coordinator, HelloViewControllerDelegate {
 }
 ```
 
-흐름
+<br>
+
+### 흐름
 
 본격적으로 요번 앱에 **Coordinator** 흐름입니다.
 
@@ -171,6 +177,8 @@ class HelloViewController: UIViewController {
     }
 }
 ```
+
+<br>
 
 HelloCoordinator에서 받은 것을 delegate를 통해 호출해줍니다.
 
