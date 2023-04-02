@@ -2,6 +2,8 @@
 
 ---
 
+<br>
+
 ### **Coordinator** 사용방법
 
 사용방법을 설명하기 위해서 간단한 버튼을 눌르면 다른 화면으로 전환되는 view를 만들어보겠습니다.
@@ -14,6 +16,8 @@ protocol Coordinator : class {
 ```
 
 일단 **Coordinator**는 계속 사용하기 때문에 **Coordinator**를 하나 만들면 하위 **Coordinator**가 있다고 생각하시면 됩니다
+
+<br>
 
 ```
 class AppCoordinator: Coordinator {
@@ -55,6 +59,8 @@ start는 컨트롤러 생성, 화면 전환 및 종속성 주입의 역할을 �
 
 그럼 childCoordinator는 왜 배열로 선언할까요? childCoordinator는 child Coordinator가 할당 해제되는 것을 방지하기 위해 배열을 사용합니다.
 
+<br>
+
 ```
 import UIKit
 
@@ -81,6 +87,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 ```
 
 이런식으로 AppCoordinator를 사용해서 흐름을 제어하는 것을 볼 수 있습니다.
+
+<br>
 
 ```
 import UIKit
@@ -122,6 +130,8 @@ HelloViewController -> AppCoordinator -> AppCoordinator 이라고 이해하시�
 HelloViewController가 나 이런 이벤트가 호출되었어! 라고 AppCoordinator에게 전하는 AppCoordinator가 AppCoordinator에게 진행시켜! 라고 전해주는 것입니다.
 
 다시 본래로 돌아와서 HelloViewController를 만들기 전에 Delegate를 설정해주어야합니다.
+
+<br>
 
 ```
 import UIKit
@@ -165,6 +175,8 @@ class HelloViewController: UIViewController {
 HelloCoordinator에서 받은 것을 delegate를 통해 호출해줍니다.
 
 그리고 똑같이 ByeViewController와 ByeCoordinator를 설정해주도록 하겠습니다.
+
+<br>
 
 ```
 import UIKit
@@ -234,6 +246,8 @@ class ByeCoordinator: Coordinator, ByeViewControllerDelegate {
 }
 ```
 
+<br>
+
 이제 AppCoordinator 다시 설정해보도록 하겠습니다.
 
 ```
@@ -285,10 +299,12 @@ class AppCoordinator: Coordinator, ByeCoordinatorDelegate, HelloCoordinatorDeleg
 }
 ```
 
+<br>
+
 ### 글을 마치며..
 
 이렇게 간..단한? **Coordinator** 예제를 통해서 Coordinator를 알아보았는데요 실행화면을 보면 전에 present 했던 것처럼 나오지만 present는 그냥 때..려박다? 이런 느낌이면 Coordinator를 통해서 HelloViewController -> AppCoordinator -> AppCoordinator 이렇게 흐름을 제어해봤습니다. 
 
 전체 코드는 아래에 걸어두겠습니다.
 
-[코드 예제](Coordinator](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/GoF-Theorys/BridgePattern-junha.md)
+[코드 예제](Coordinator](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/CoordinatorPattern/ExCoordinator)
