@@ -1,16 +1,16 @@
-name: "Todo"
-description: "오늘은 이것을 했어요"
+name: "설명"
+description: "이것도 설명해주세요 🙏"
 body:
 
   - type: textarea
     attributes:
-      label: 할 일
+      label: 이것도 설명해주시면 좋겠습니다!
       description: |
-        [Explain] 설명을 작성해주세요.
+        [Explain] 원하느 디자인 패턴을 알려주세요!! 😏
       placeholder: |
-        이것을 했어요
+        VIP 패턴을 설명해주셨으면 좋겠습니다.
   - type: textarea
     attributes:
       label: 추가사항
       description: |
-        [추가사항] 별도로 알려줘야 할 사항이나 추가사항을 작성해주세요    
+        [추가사항] 예제 코드도 주셨으면 좋겠습니다.  
