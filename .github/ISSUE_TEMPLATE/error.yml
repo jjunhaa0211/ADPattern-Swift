@@ -1,15 +1,15 @@
-name: "Bug"
-description: "버그가 발생했습니다."
-labels: 버그
+name: "erorr"
+description: "오타 또는 잘못된 설명이 있습니다 🐛"
+labels: 에러
 body:
 
   - type: textarea
     attributes:
       label: 설명
       description: |
-        버그가 난 부분을 적어주세요.
+        에러가 난 부분 또는 URL을 주세요.
       placeholder: |
-        잘못된 것 같아요.
+        여기가 잘못된 것 같아요.
   - type: textarea
     attributes:
       label: 추가사항
