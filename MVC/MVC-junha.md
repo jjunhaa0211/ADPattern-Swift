@@ -27,7 +27,9 @@ MVC란?
     - 여러분이 보통 View를 나누지 않고 다 때려박았으면 자신도 모른체 MVC를 사용하고 있었던 것 입니다.
     - Model과 View의 다리로 Controller가 없으면 Model과 View는 서로의 정체를 알 수 없다.
 
-서로의 관계
+<br>
+
+## 서로의 관계
 
 Model과 Controller
 
