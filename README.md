@@ -74,7 +74,7 @@
 * **챕터 I: MVC 디자인 패턴**
   > | 순서 | 제목 | 내용 | 예제 코드 |
   > |:---:| :--- | :--- | :--- |
-  > |1|  | **MVC** | |
+  > |1| [MVC Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/MVC/MVC-junha.md "MVC 패턴이란?") | **MVC** | |
 
 <br>
 
