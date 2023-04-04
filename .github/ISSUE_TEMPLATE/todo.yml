@@ -6,7 +6,7 @@ body:
     attributes:
       label: 이것도 설명해주시면 좋겠습니다!
       description: |
-        [Explain] 원하느 디자인 패턴을 알려주세요!! 😏
+        [Explain] 원하는 디자인 패턴을 알려주세요!! 😏
       placeholder: |
         VIP 패턴을 설명해주셨으면 좋겠습니다.
   - type: textarea
