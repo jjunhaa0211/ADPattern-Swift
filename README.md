@@ -100,6 +100,17 @@
 
 <br>
 
+## VIP Design Pattern
+
+<br>
+
+* **챕터 I: VIP 디자인 패턴**
+  > | 순서 | 제목 | 내용 | 예제 코드 |
+  > |:---:| :--- | :--- | :--- |
+  > |1|  | **VIP** | |
+
+<br>
+
 ## Coordinator Pattern
 
 <br>
