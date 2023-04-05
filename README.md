@@ -121,6 +121,7 @@
   > |1|  | **VIP** | |
 
 <br>
+
 ## <a id="Coordinator-Pattern"></a>Coordinator Pattern
 
 <br>
