@@ -57,7 +57,7 @@
   > |3| [Facade Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/GoF-Theorys/FacadePattern-junha.md "Facade 패턴이란?") | **Facade** | [Facade Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-FacadePattern) |
   > |4| [Flyweight Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/GoF-Theorys/FlyweightPattern-junha.md) | **Flyweight** | [Flyweight Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-FlyweightPattern) |
   > |5| [CompositePattern Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/GoF-Theorys/CompositePattern-junha.md) | **Proxy** | [Proxy Pattern 예제 코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-ProxyPattern) |
-  > |6| [Flyweight Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/GoF-Theorys/FlyweightPattern-junha.md) | **Composite** | - |
+  > |6| [Flyweight Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/GoF-Theorys/FlyweightPattern-junha.md) | **Composite** | [Composite Pattern 예제코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/GoF-CompositPattern) |
   > |7| - | **Adapter** | - |
 
 <br>
