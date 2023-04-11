@@ -143,12 +143,13 @@
   > |:---:| :--- | :--- |
   > |1| 설계와 아키텍처란? | [설계와 아키텍처](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/CleanArchitecture/소개.md "1~14") |
   > |2| 두 가지 가치에 대한 이야기 | [두 가지 가치에 대한 이야기](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/CleanArchitecture/두%20가지%20가치에%20대한%20이야기.md "15~21") |
+  
 <br>
 
 * **챕터 II: 프로그래밍 패러다임**
   > | 순서 | 제목 | 내용 |
   > |:---:| :--- | :--- |
-  > |1| 패러다임 개요 |  |
+  > |1| 패러다임 개요 | [패러다임 개요](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/CleanArchitecture/패러다임의%20개요.md "26~28" |
   > |2| 구조적 프로그래밍 |  |
   > |3| 객체 지향 프로그래밍 |  |
   > |4| 함수형 프로그래밍 |  |
