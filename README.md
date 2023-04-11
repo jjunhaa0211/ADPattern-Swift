@@ -149,7 +149,7 @@
 * **챕터 II: 프로그래밍 패러다임**
   > | 순서 | 제목 | 내용 |
   > |:---:| :--- | :--- |
-  > |1| 패러다임 개요 | [패러다임 개요](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/CleanArchitecture/패러다임의%20개요.md "26~28" |
+  > |1| 패러다임 개요 | [패러다임 개요](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/CleanArchitecture/패러다임의%20개요.md "26~28") |
   > |2| 구조적 프로그래밍 |  |
   > |3| 객체 지향 프로그래밍 |  |
   > |4| 함수형 프로그래밍 |  |
