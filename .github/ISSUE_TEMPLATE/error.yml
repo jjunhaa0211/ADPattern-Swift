@@ -1,18 +1,18 @@
 name: "Erorr"
-description: "오타 또는 잘못된 설명이 있습니다 🐛"
-labels: 에러
+description: "There is a problem with your code 😅"
+labels: error
 body:
 
   - type: textarea
     attributes:
-      label: 설명
+      label: explanation
       description: |
-        에러가 난 부분 또는 URL을 주세요.
+        Where do you think the error is coming from?
       placeholder: |
-        여기가 잘못된 것 같아요.
+        I think there is an error in the XCamare part
   - type: textarea
     attributes:
-      label: 추가사항
+      label: More details
       description: |
-        더 문제가 있을까요?
+        Any more problems?
 

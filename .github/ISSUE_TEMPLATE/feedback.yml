@@ -1,0 +1,16 @@
+name: "feedback"
+description: "I thought of a more efficient way! 😎"
+body:
+
+  - type: textarea
+    attributes:
+      label: feedback
+      description: |
+        What changes could make the code better?
+      placeholder: |
+         recommend using ? to be safer than using !
+  - type: textarea
+    attributes:
+      label: More details
+      description: |
+        Any more problems?
