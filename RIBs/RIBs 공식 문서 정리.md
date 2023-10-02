@@ -21,8 +21,9 @@ Uber 용도의 프레임워크 설계할 때 아래 원칙을 준수해주세요
 ## RIBs의 일부
 
 - 이전에 VIPER 아키텍처로 작업한 적이 있다면 RIB의 클래스 분석이 익숙할 것입니다. RIB는 일반적으로 다음 요서로 구성되면 모든 요소로 구성됩니다.
-    
-    ![스크린샷 2023-08-21 오후 12.28.03.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/01ff31bd-9600-41af-8ea0-4d2e04f5f5d3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-08-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_12.28.03.png)
+
+  <img width="465" alt="스크린샷 2023-10-02 오후 2 02 45" src="https://github.com/jjunhaa0211/ADPattern-Swift/assets/102890390/26901319-7b4c-49ab-8f80-110897e157eb">
+
     
 - **Interactor**
     - 비지니스 로직을 포함한다
@@ -60,7 +61,8 @@ Uber 용도의 프레임워크 설계할 때 아래 원칙을 준수해주세요
 
 사용자가 단순화된 승차 공유 앱에서 여러 상태를 진행함에 따라 앱은 다음 RIB을 연결 및 분리합니다.
 
-![스크린샷 2023-08-21 오후 1.07.07.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/474d447b-4787-4e77-9e8f-a6b56f3b8199/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-08-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_1.07.07.png)
+<img width="499" alt="스크린샷 2023-10-02 오후 2 03 00" src="https://github.com/jjunhaa0211/ADPattern-Swift/assets/102890390/c8c606f5-1361-446d-a573-cac046c51d18">
+
 
 RIB는 해당 범위 내에서만 상태 결정을 내립니다.
 예를 들어 Loggedln RIB는 Request 및 OnTrip과 같은 상태 간 전환에 대한 상태 결정만 냅니다.
