@@ -141,8 +141,9 @@
 * **챕터 I: RIBs 디자인 패턴**
   > | 순서 | 제목 | 내용 | 예제 코드 |
   > |:---:| :--- | :--- | :--- |
-  > |1| RIBs? | | |
-  > |2| RIBs 로그인 코드 예제 | 실전 적용 | |
+  > |1| **RIBs** | RIBs란? | [RIBs란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/RIBs/RIBs란%3F.md)|
+  > |2| **RIBs** | 공식 문서 정리 | [RIBs 공식 문서](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/RIBs/RIBs%20공식%20문서%20정리.md) |
+  > |2| **RIBs** 로그인 코드 예제 | 실전 적용 | |
 
 <br>
 
