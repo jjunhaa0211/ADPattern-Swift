@@ -183,11 +183,11 @@
 * **챕터 III: 설계 원칙**
   > | 순서 | 제목 | 내용 |
   > |:---:| :--- | :--- |
-  > |1| SRP: 단일 책임 원칙 |  |
-  > |2| OCP: 개방 폐쇄 원칙 |  |
-  > |3| LSP: 리스코프 치환 원칙 |  |
-  > |4| ISP: 인터페이스 분리 원칙 |  |
-  > |5| DIP: 의존성 역전 원칙 |  |
+  > |1| SRP: 단일 책임 원칙 | [SRP란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/CleanArchitecture/SRP.md) |
+  > |2| OCP: 개방 폐쇄 원칙 |[OCP란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/CleanArchitecture/OCP.md)  |
+  > |3| LSP: 리스코프 치환 원칙 | [LSP란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/CleanArchitecture/LSP.md) |
+  > |4| ISP: 인터페이스 분리 원칙 | [ISP란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/CleanArchitecture/ISP.md) |
+  > |5| DIP: 의존성 역전 원칙 | [DIP란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/CleanArchitecture/DIP.md) |
 
 <br>
 
