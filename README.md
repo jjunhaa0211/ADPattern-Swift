@@ -127,10 +127,10 @@
 
 <br>
 
-* **챕터 I: VIP 디자인 패턴**
+* **챕터 I: VIPER 디자인 패턴**
   > | 순서 | 제목 | 내용 | 예제 코드 |
   > |:---:| :--- | :--- | :--- |
-  > |1|  | **VIP** | [Viper 패턴 코드 예제](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/Viper/ViperPattern) |
+  > |1| **VIPER** | VIPER 예제 | [Viper 패턴 코드 예제](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/Viper/ViperPattern) |
 
 <br>
 
