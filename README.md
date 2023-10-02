@@ -230,7 +230,7 @@
 * **챕터 I: Swinject**
   > | 순서 | 제목 | 내용 | 예제 코드 |
   > |:---:| :--- | :--- | :--- |
-  > |1| Swinject란? | 이론 설명 | [](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/Swinject/Swinject란%3F.md) |
+  > |1| Swinject란? | 이론 설명 | [이론 설명](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/Swinject/Swinject란%3F.md) |
   > |2| Swinject 예제 코드 | 예제코드 | [코드 예제](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/Swinject/SwinjectTest) |
 
 <br>
