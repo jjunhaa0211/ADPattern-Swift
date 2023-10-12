@@ -96,8 +96,8 @@
 * **챕터 I: MVVM 디자인 패턴**
   > | 순서 | 제목 | 내용 | 예제 코드 |
   > |:---:| :--- | :--- | :--- |
-  > |1| **MVVM** | [MVVM이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/MVVM/MVVM%20사용이유.md "MVVM이란?") |  |
-  > |2| **MVVM** | MVVM 실습 예제 |  |
+  > |1| **MVVM** | [MVVM이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/MVVM/MVVM%20사용이유.md "MVVM이란?") | 없음 |
+  > |2| **MVVM** | Basic MVVM + DelegatePattern | [MVVM 실습 예제](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/MVVM/BasicMVVM) |
 
 <br>
 
