@@ -98,7 +98,7 @@
   > |:---:| :--- | :--- | :--- |
   > |1| **MVVM** | [MVVM이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/MVVM/MVVM%20사용이유.md "MVVM이란?") | 없음 |
   > |2| **MVVM** | Basic MVVM + DelegatePattern | [MVVM 실습 예제](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/MVVM/BasicMVVM) |
-  > |3| **MVVM** | MVVM + RxSwift | [MVVM+RxSwift 이론](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/MVVM/MVVM%2BRxSwift.md)|
+  > |3| **MVVM** | [MVVM+RxSwift 이론](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/MVVM/MVVM%2BRxSwift.md) | 없음 |
 
 <br>
 
