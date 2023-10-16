@@ -1,45 +1,128 @@
 # MVVM
 
 ---
-<img width="700" alt="스크린샷 2023-10-12 오전 8 24 29" src="https://github.com/jjunhaa0211/ADPattern-Swift/assets/102890390/6387228f-71c7-45e3-a0a2-5b53ee40403a">
+## RxSwift는 mvvm과 함께 쓰는데 왜 사용하는 걸까?
 
-## MVVM 패턴
+- 리액티브 프로그래밍은 코드 없데이트가 변경 사항을 자동으로 반영하도록 설정하자에서 시작함
+- 데이터 스트림과 변경 사항의 전파를 중심으로 하는 비동기 프로그래밍이라고 정리함
+- 리엑티브를 사용하는 이유는 특정 상태를 유지하는 것보다 로직에 조금 더 집중할 수 있기 때문입니다
+- 이러한 라이브러리가 ReactiveX이고 swift 와 함께 사용할 수 있는 것이 RxSwift입니다
+- RxSwift는 mvvm 패턴에서 데이터 바인딩하는 대표적인 방법입니다
+- view model을 통해서 view와 model의 양방향 바인딩이 가능합니다.
+    - rxswift는 이 양방향 바인딩을 도와주는 operator들이 있기 때문에 쉽게 처리할 수 있습니다.
 
-> MVVM (Model-View-ViewModel) 패턴은 뷰와 비즈니스 로직을 더 세분화하여 분리하는 확장된 아키텍처 패턴입니다.
-> 
-- **Model**: 데이터와 데이터 처리를 담당하는 부분으로, MVC 패턴과 동일한 역할을 합니다.
-- **View**: 사용자 인터페이스를 표시하며, ViewModel의 데이터를 바인딩하여 표시합니다. 이 패턴에서는 컨트롤러 대신 ViewModel이 상호작용을 처리합니다.
-- **ViewModel**: View와 Model 사이의 중개자 역할을 하며, View에 필요한 데이터를 가공하거나 가공되지 않은 데이터를 Model에 전달합니다. 또한 View와의 양방향 데이터 바인딩을 지원하여 View의 상태를 업데이트하고 사용자 입력을 처리합니다.
+## RxCocoa는 무엇일까?
 
-MVVM 패턴은 데이터와 UI를 분리하여 테스트 용이성과 재사용성을 높이며, 뷰 로직과 비즈니스 로직을 분리함으로써 코드의 가독성을 증가시킵니다. 또한 데이터 바인딩을 통해 UI 업데이트를 간소화하고 뷰의 로직을 효과적으로 분리할 수 있습니다.
+- RxCocoa는 UI에 집중할 수 있도록 애플리케이션을 제작하기 위한 도구들의 모음인 Cocoa Framework를 rx와 합친 기능을 제공하는 라이브러리 입니다.
+- RxCocoa를 사용하여 UI 구성요소에 반응형 확장 기능을 추가하여 UI 이벤트를 추가할 수 있습니다
 
-## MVC의 불편함
+## MVVM + RxSwift
 
-- **Massive View Controller**: MVC 패턴에서 뷰 컨트롤러는 많은 역할을 수행하게 되어 "Massive View Controller" 문제가 발생합니다. 이는 사용자 인터페이스 로직, 데이터 변환, 네트워크 요청 처리 등을 모두 처리해야 하기 때문에 코드가 길고 복잡해질 수 있습니다.
-- **강한 의존성과 결합도**: MVC 패턴에서 뷕, 모델, 컨트롤러가 강하게 연결되어 있어 유연성과 재사용성이 감소할 수 있습니다.
-- **테스트 어려움**: MVC 패턴에서는 뷕와 모델이 강하게 결합되어 있어 단위 테스트를 수행하기 어려울 수 있으며, 뷕 컨트롤러가 많은 로직을 포함하면 테스트 작성과 유지보수가 어려워질 수 있습니다.
-- **코드 분산**: 코드의 로직이 뷕 컨트롤러, 모델 및 뷕 사이에 분산되어 있을 수 있으며, 이로 인해 코드를 이해하고 유지보수하기 어려울 수 있습니다.
-- **코드 중복**: 뷕 컨트롤러 내에서 비슷한 코드가 여러 번 반복될 수 있으며, 이로 인해 코드의 중복이 발생하고 변경하기 어렵게 될 수 있습니다.
+- view에 액션 추가, 터치 시에 해당 색상 변경, 터치가 벗어나거나 손가락이 떨어지면 색상 복귀
+- 액션에 화면 전환 로직 추가
+- 테스트 코드 작성
 
-## MVC의 장점
+## MVVM
 
-- **간단하고 직관적**: MVC 패턴은 간단하고 직관적인 구조를 가지고 있어 빠르게 개발할 수 있습니다.
-- **프레임워크 호환성**: iOS와 macOS에서 Apple의 프레임워크는 주로 MVC 패턴을 기반으로 설계되어 있어, 프레임워크와 자연스럽게 호환되며 개발할 수 있습니다.
+- MVVM의 단점은 정형화된 패턴이 없습니다
+- input - ouput
+- model - view - view model
+- 구조
+    - model에서 가져온 view를 업데이트할 데이터를 view model 에서 처리하게 함으로써 Controller가 복잡해지는 것을 줄여줍니다
+    - Data Binding
+        - view model과 view는 서로에게 데이터의 변경을 알려줄 수 있는 방법이 필요합니다.
+    - Model
+        - data를 담당
+        - model은 view 나 view model 과 관계없이 독립적으로 구성
+        - 앱이 사용자에게 보여지는 모습이나 제공방식과 관련이 없음
+    - View
+        - 화면을 담당
+        - 뷰 레이아웃 관련
+        - 이벤트 발생 시에 view는 view model에게 알림
+            - view에서만 viewmodel에 접근 가능 뷰 모델 프로퍼티 소유
+            - input-output을 적용하면서 transform 함수를 가짐
+    - viewModel
+        - 뷰에 대한 모델
+        - view의 모습이 어떤지 모름
+        - view와 view model 간에 의존성이 없기 떄문에 유닛 테스트를 하기에 좋음
+        - 뷰가 가지는 모델을 포함함
+        - 비즈니스 로직을 담당하는 model 프로퍼티 소유
+            - Model 의 역할이 비즈니스 로직까지이기 때문에 Entity + Service 로 보면되고 주로 역할에 따라 분리함
+            - 서버 통신을 예시로 Repository 에서 서버에서 전달받은 jSON 자료형을 디코딩하여 Entity 로 변환
+            - Service 역할은 Repository 에서 변환한 Entity 를 가공하는 비지니스 로직을 수행(예를 들어, Date 자료형의 dateFormat 을 변경하여 원하는 문자열로 가공. 이 문자열이 Model 에 들어감. 이 Model 객체를 View Model 에서 소유)
 
-## Swift 관점에서 MVVM 패턴의 장단점
+## input - output
 
-**장점**
+- 뷰로 부터 input이 들어와서 뷰 모델에서 비즈니스 로직을 통해 ouput으로 전달되는 흐름이 이해하기 쉬었다.
+- 뷰에서 출발한 스트림이 끊어지지 않고 변하면서 값이 전달되는 이러한 특성은 rx에 반응형 프로그래밍을 나타내기에 적절합니다.
+- subscribe은 스트림의 종착점인 viewController 에서 이루어지는 것이 좋습니다.
+- 중간에 subscribe을 통해서 스트림을 가공하는 형태가 아닌 Operator를 통해 데이터를 가공하거나 사이드 이펙트를 반영할 수 있습니다.
 
-- **코드 분리**: MVVM 패턴은 뷕 로직과 비즈니스 로직을 분리하여 유지보수성을 향상시킵니다. 뷕 컨트롤러에서 비즈니스 로직을 처리하는 대신, 뷕 모델에서 이를 처리하여 코드를 모듈화하고 가독성을 높일 수 있습니다.
-- **테스트 용이성**: 뷕 모델은 비즈니스 로직을 포함하므로 단위 테스트를 수행하기 훨씬 용이하며, 뷕 컨트롤러보다 더 작은 단위로 테스트할 수 있어 코드 품질을 높일 수 있습니다.
-- **뷕와 데이터 바인딩**: MVVM 패턴은 데이터 바인딩을 통해 뷕와 뷕 모델을 연결할 수 있어 뷕 모델의 변경 사항이 자동으로 뷕에 반영되어 UI 업데이트를 간소화하고 일관성을 유지할 수 있습니다.
-- **재사용성**: 뷕 모델은 뷕 로직을 포함하므로, 여러 뷕에서 동일한 뷕 모델을 사용하여 코드를 재사용할 수 있습니다.
-- **UI와 로직의 분리**: MVVM 패턴은 뷕 로직과 UI를 분리하여 디자이너와 개발자 간의 협업을 더욱 용이하게 만듭니다.
+```swift
+protocol ViewModelType {
+    associatedtype Input
+    associatedtype Output
 
-**단점**
+    func transform(input: Input) -> Output
+ }
+```
 
-- **복잡성 증가**: MVVM 패턴은 추가적인 뷕 모델 계층을 도입하므로 프로젝트 구조가 더 복잡해질 수 있습니다. 초보자에게는 어려울 수 있습니다.
-- **학습 곡선**: MVVM 패턴은 MVC와는 다른 개념으로 이해하고 구현해야 하기 때문에, 팀 내에서 새로운 개념을 소개할 때 학습 곡선이 필요할 수 있습니다.
-- **적절한 상황 선택**: 모든 프로젝트에 MVVM 패턴이 적합한 것은 아닐 수 있으며, 간단한 애플리케이션에서는 너무 많은 구조가 필요할 수 있습니다.
-- **뷕 모델의 과도한 부담**: 너무 많은 논리를 뷕 모델에 넣으면 뷕 모델이 커져서 관리하기 어려울 수 있습니다.
-- **레거시 코드 통합**: 기존의 레거시 코드와 MVVM 패턴을 통합할 때 몇 가지 어려움이 발생할 수 있습니다.
+## bind
+
+- bind를 통해서 subscribe 수행할 수 있습니다.
+- bind와 이벤트를 핸들링하는 클로저에서 약한 참조를 사용하는 것은 여러 방법이 있습니다.
+
+```swift
+.bind(onNext: { [weak self] data in
+    guard let self = self else { return }
+    self.task1(data)
+    self.task2(data)
+})
+.disposed(by: disposeBag)
+```
+
+bind를 사용하면서 아래의 operator는 사용하지 않아도 됩니다.
+
+```swift
+.withUnretained(self)
+.bind(onNext: { owner, data in
+    owner.task1(data)
+    owner.task2(data)
+})
+.disposed(by: disposeBag)
+```
+
+withUnretained는 share과 같이 사용할 때 retain cycle이 발생할 수 있다.
+
+그래서 Driver와는 사용할 수 없다고 함
+
+```swift
+.bind(with: self, onNext: { owner, data in
+    owner.task1(data)
+    owner.task2(data)
+})
+.disposed(by: disposeBag)
+```
+
+bind(with:onNext:)를 사용하면 약한 참조의 인스턴스를 전달할 수 있다.
+
+```swift
+.bind(onNext: { [weak self] data in
+    self?.task1(data)
+    self?.task2(data)
+})
+.disposed(by: disposeBag)
+```
+
+self? 을 사용해야 한다면 다음과 같이 캡처리스트를 생성하고 진행
+
+bind 코드를 살펴보면 guard let 으로 강한 참조하여 전달하고 있다.
+
+## bind와 drive의 차이
+
+- bind 와 drive 모두 main thread 에서 실행되기 때문에 UI 작업을 하기에 적절합니다.
+- drive 는 Observable 에서 `asDriver()` 메소드를 통해 변환된 Driver 타입의 핸들링을 합니다.
+    - Driver 는 RxCocoa 가 제공하는 UI 처리에 특화된 Observable 인 Traits 의 하나입니다.
+- bind 는 Observer 가 추가될때마다 새로운 스트림이 실행됩니다. 반면, drive 는 스트림을 공유합니다. 그래서 하나의 스트림을 여러 곳에서 관찰하는 경우에 bind 보다 메모리의 이점이 존재합니다.
+- bind 코드를 살펴보면 onError 가 없습니다. (Driver 는 error 를 방출하지 않기 때문에 bind 와 달리 애초에 없습니다.)
+- 또한, drive 는 onCompleted, onDisposed 파라미터가 있기 때문에 사이드 이펙트를 처리하기에 용이합니다.
