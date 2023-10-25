@@ -161,6 +161,12 @@
 
 <br>
 
+* **챕터 I: Redux 디자인 패턴**
+  > | 순서 | 제목 | 내용 | 예제 코드 |
+  > |:---:| :--- | :--- | :--- |
+  > |1| Redux란? |  | 이론 |
+<br>
+
 ## <a id="Clean-Architecture"></a>Clean Architecture
 
 <br>
