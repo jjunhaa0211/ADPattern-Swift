@@ -22,7 +22,7 @@
 * [MVC Design Pattern](#MVC-Design-Pattern)
 * [MVVM Design Pattern](#MVVM-Design-Pattern)
 * [MVP Design Pattern](#MVP-Design-Pattern)
-* [VIP Design Pattern](#VIP-Design-Pattern)
+* [VIPER Design Pattern](#VIP-Design-Pattern)
 * [Coordinator Pattern](#Coordinator-Pattern)
 * [Clean Architecture](#Clean-Architecture)
 <br>
@@ -136,7 +136,7 @@
 <br>
 
 
-## <a id="VIPER-Design-Pattern"></a>VIP Design Pattern
+## <a id="VIPER-Design-Pattern"></a>VIPER Design Pattern
 
 <br>
 
