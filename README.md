@@ -226,17 +226,6 @@
 
 <br>
 
-## Module Structure
-
-<br>
-
-* **챕터 I: Microfeatures Architecture 모듈 form Swift**
-  > | 순서 | 제목 | 내용 | 예제 코드 |
-  > |:---:| :--- | :--- | :--- |
-  > |1| MFA란? |  [MFA](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/MFA/Features%20Architecturemd.md) |  |
-
-<br>
-
 ## DI
 
 <br>
