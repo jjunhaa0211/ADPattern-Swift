@@ -85,7 +85,7 @@
 * **챕터 I: MVC 디자인 패턴**
   > | 순서 | 제목 | 내용 | 예제 코드 |
   > |:---:| :--- | :--- | :--- |
-  > |1| MVC란? | [MVC Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/MVC/MVC-junha.md "MVC 패턴이란?") | |
+  > |1| MVC란? | [MVC Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/MVC/MVC-junha.md "MVC 패턴이란?") | 없음 |
 
 <br>
 
@@ -110,8 +110,8 @@
 * **챕터 I: MVP 디자인 패턴**
   > | 순서 | 제목 | 내용 | 예제 코드 |
   > |:---:| :--- | :--- | :--- |
-  > |1| MVP란? | [MVP Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/MVP/MVP-junha.md "MVP 패턴이란?") |  |
-  > |2| MVP 심화 | | |
+  > |1| MVP란? | [MVP Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/MVP/MVP-junha.md "MVP 패턴이란?") | 없음 |
+  > |2| MVP 심화 | | 없음 |
   > |3| MVP 게시판 예제 | | |
 
 <br>
