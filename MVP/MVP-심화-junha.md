@@ -1,76 +1,42 @@
-# MVP
+# MVP 심화
 
-<br>
+## 역활
 
-우리가 보통 그냥 심심한데 개발 좀 해볼까? 할 때 하는 개발은 주로 MVC로 구현하기 때문에 MVC에 적응되어 있을 텐데 오늘은 조금 생소한 MVP를 알아보도록 하겠습니다.
+### 1. Presenter
 
-<br>
+- Presenter가 View의 UI 비즈니스 로직 담당
+- View의 발생하는 모든 호출은 Presenter에 직접 위임
+- Presenter는 View와 직접 분리되어있어서 인터페이스를 통해서 뷰와 소통합니다.
+- Presenter는 Model을 View에 전달하여 바인딩함
+- Presenter는 버튼 누르기, 네비게이션과 같은 로직 또한 수행하게 됩니다.
+- 장점
+    - 데이터 바인딩을 활용하여 코드의 양을 줄일 수 있습니다.
+- 단점
+    - 테스트 가능한 표면이 적고, View에 모델과 직접 대화가 힘들며 캡슐화가 덜합니다.
 
-<img width="472" alt="스크린샷 2023-04-02 오후 10 26 26" src="https://user-images.githubusercontent.com/102890390/229355730-d7c63b1d-4064-4e3b-be0b-06b7a51273e9.png">
-<img width="464" alt="스크린샷 2023-04-02 오후 10 26 39" src="https://user-images.githubusercontent.com/102890390/229355741-3e1f8202-45aa-4bfc-b3e9-859a5b6ac7b0.png">
+### 2. View
 
-MVP란?
+- 단순하며 거의 로직이 호함되어있지 않습니다.
+- Model과 완전히 격리되어 있어야 합니다.
+- 항상 Presenter가 구독하면 View는 업데이트만 하면됩니다.
+- 직접적인 데이터 바인딩은 할 수 없지만 View는 Presenter가 데이터를 설정하는데 사용하는 Setter를 노출합니다.
+- 모든 상태 관리는 View가 아닌 Presenter가 관리합니다.
 
-- MVP는 Model-View-Presenter의 약자입니다.
-- 사용자 인터페이스를 모델, 뷰, 프레젠터 세 가지 역할로 나누어 관리함
-- 각 역할이 분리되어 있어 유지보수와 테스트가 용이합니다.
+### 3. Model
 
-<br>
+- 데이터 저장 및 관리
 
-MVP의 지켜야할 규칙
+## MVP 특징
 
-- Model과 ViewController는 Presenter를 통해 알아야하고 절대 서로를 알고 있으면 안되요
-- ViewController는 유저의 버튼 또는 트리거는 프레젠터가 전부 하게 된다.
-- Model은 데이터 수정과 추가를 담당해야한다
-- Presenter는 API Request 즉 중간 관리자 역활을 해야합니다.
-- ViewController는 View를 수정, 설정, 추가 합니다.
-
-<br>
-
-Model
-
-- 데이터 모델을 정의
-- 실질적인 데이터
-- 데이터 형식과 속성을 정의(데이터 수정, 추가)
-
-<br>
-
-View
-
-- MVC의 View와 ViewController를 모두 포함
-- 사용자에게 보여지는 UI요소
-- 사용자가 입력에 대한 이벤트를 Presenter에 전달하고 Presenter가 전달한 데이터를 화면에 표시
-
-<br>
-
-Presenter
-
-- UIKit과 관련이 없는 로직들을 수행
-- 사용자 응답에 반응하거나 UI를 업데이트하는 일을 담당
-- View에서 요청한 정보를 Model로 부터 가공해
-
-<br>
-
-MVP 장점
-
-- MVC는 View와 Model 사이의 의존성이 존재했지만 MVP에서는 의존성을 제거
-- Presenter를 이용하여 중건저 역활을 수행하므로, View와 Model 간의 상화 작용에 유연함
-- View와 Model을 쉽게 교체할 수 있다.
-- 유지보수성과 테스트 용이성이 향상됩니다.
-
-<br>
-
-MVP 단점
-
-- View와 Presenter 사이의 의존성
-    - MVP 패턴에서 View와 Presenter는 서로 의존성이 있습니다.
-    - View에서 이벤트를 처리하고 Presenter를 호출하며, Presenter는 다시 View를 업데이트 하는 번거로움이 있습니다.
-    - 의존성은 앱의 복잡도가 증가할 수록 유지보수를 어렵게 만들 수 있습니다.
-- Presenter의 책임과 역활
-    - Presenter가 View와 Model 사이의 중개자 역활을 수행하는 이점도 있지만 Presenter의 역활이 커질 수록 코드가 길어지고 복잡해질 수 있습니다.
-    - Presenter는 데이터의 변화를 감지하는 것이 어렵고 데이터 변화를 감지하므로 알림을 보내는 더 많은 코드의 필요성이 필요합니다.
-- View와 Model 사이의 의존성
-    - MVP 패턴에서 View는 Model을 호출합니다. View와 Model 사이의 직접적인 의존성을 만들어, View와 Model을 독립적으로 유지하는 것이 어렵고 의존성이 코드의 복잡성을 증가 시킬 수 있습니다.
-- 구현의 번거로움
-    - MVP 패턴은 구현하기 쉽지 않습니다.
-    - V, P, M 사이의 상호작용을 처리하고 유지하는 것은 어려울 수 있습니다.
+- 테스트에 적합하다.
+    - 이유
+        1. 대부분의 비지니스 로직을 테스트할 수 있다.
+        2. 단위 테스트에서 View를 모의 MOCK을 만들 수 있다.
+- 많은 양방향 디스패치가 필요합니다.
+    - 말이 좀 어렵죠…. 풀어드릴게용!
+        - 양방향 디스패치란?
+            - 뷰에서 발생하는 이벤트를 Presenter로 보내고 Presenter에서 전달된 이벤트를 View에 띄워주는 것을 말합니다.
+        - ex)
+        - 저장 버튼이 완료되면, Presenter는 그 인터페이스를 통해 View에게 저장완료 되었다는 것을 알려주어서 뷰에 표기합니다.
+- MVP는 WebForms에서 Presenter 분리를 할 수 있는 프레임 워크인데용
+    - ASP.NET에 의하면 View가 제일 먼저 생성된다고 합니다.
