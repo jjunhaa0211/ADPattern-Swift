@@ -23,6 +23,7 @@
 * [MVVM Design Pattern](#MVVM-Design-Pattern)
 * [MVP Design Pattern](#MVP-Design-Pattern)
 * [TCA Design Pattern](#TCA-Design-Pattern)
+* [Flux Design Pattern](#Flux-Design-Pattern)
 * [Redux Design Pattern](#Redux-Design-Pattern)
 * [VIPER Design Pattern](#VIPER-Design-Pattern)
 * [Coordinator Pattern](#Coordinator-Pattern)
@@ -127,6 +128,14 @@
   > | 순서 | 제목 | 내용 | 예제 코드 |
   > |:---:| :--- | :--- | :--- |
   > |1| TCA |  [TCA란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/TCA/TCA.md) |  |
+
+<br>
+## <a id="Flux-Design-Pattern"></a>Flux Design Pattern
+
+* **챕터 I: Flux 디자인 패턴**
+  > | 순서 | 제목 | 내용 | 예제 코드 |
+  > |:---:| :--- | :--- | :--- |
+  > |1| Flux란? | [Flux란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/Flux/Flux.md) | 이론 |
 
 <br>
 
