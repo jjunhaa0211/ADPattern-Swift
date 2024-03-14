@@ -24,7 +24,7 @@
 * [MVP Design Pattern](#MVP-Design-Pattern)
 * [TCA Design Pattern](#TCA-Design-Pattern)
 * [Redux Design Pattern](#Redux-Design-Pattern)
-* [VIPER Design Pattern](#VIP-Design-Pattern)
+* [VIPER Design Pattern](#VIPER-Design-Pattern)
 * [Coordinator Pattern](#Coordinator-Pattern)
 * [Clean Architecture](#Clean-Architecture)
 <br>
@@ -228,17 +228,5 @@
   > |13| 크고 작은 모든 서비스들 |  |
   > |14| 테스트 경계 |  |
   > |15| 클린 임베디드 아키텍처 |  |
-
-<br>
-
-## DI
-
-<br>
-
-* **챕터 I: Swinject**
-  > | 순서 | 제목 | 내용 | 예제 코드 |
-  > |:---:| :--- | :--- | :--- |
-  > |1| Swinject란? | 이론 설명 | [이론 설명](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/Swinject/Swinject란%3F.md) |
-  > |2| Swinject 예제 코드 | 예제코드 | [코드 예제](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/Swinject/SwinjectTest) |
 
 <br>
