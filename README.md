@@ -113,6 +113,7 @@
   > |1| MVP란? | [MVP Pattern이란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/MVP/MVP-junha.md "MVP 패턴이란?") | 없음 |
   > |2| MVP 심화 | [MVP 심화](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/MVP/MVP-심화-junha.md) | 없음 |
   > |3| MVP 게시판 예제 | MVP의 기본 코드 예제 코드 | [MVP 예제 코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/MVP/JNBoard_MVP) |
+  > |4| MVP 게시판 테스트 코드 예제 | MVP의 기반의 테스트 코드 | [MVP 테스트 예제 코드](https://github.com/jjunhaa0211/ADPattern-Swift/tree/main/MVP/JNBoard_MVP_TEST) |
 
 <br>
 
