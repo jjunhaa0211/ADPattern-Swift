@@ -1,7 +1,6 @@
 # Flux
 
----
-![스크린샷 2024-03-14 오후 5.15.48.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d3adbb31-301d-41a4-8c58-464f5e6df22c/50148f84-dabc-4516-9d50-b4a2a9445b3a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-03-14_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.15.48.png)
+<img width="1051" alt="스크린샷 2024-03-14 오후 6 49 53" src="https://github.com/jjunhaa0211/ADPattern-Swift/assets/102890390/1b5489d7-a96d-4bfc-bdbb-963bdd626f35">
 
 > 웹 애플리케이션을 위해 facebook에 의해 개발된 아키텍처입니당!!
 > 
