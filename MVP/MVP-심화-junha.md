@@ -1,7 +1,4 @@
 # MVP 심화
-
-## 역활
-
 ### 1. Presenter
 
 - Presenter가 View의 UI 비즈니스 로직 담당
