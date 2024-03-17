@@ -26,6 +26,8 @@
 * [Flux Design Pattern](#Flux-Design-Pattern)
 * [Redux Design Pattern](#Redux-Design-Pattern)
 * [VIPER Design Pattern](#VIPER-Design-Pattern)
+* [RIBs Design Pattern](#RIBs-Design-Pattern)
+* [ReactorKit](#ReactorKit)
 * [Coordinator Pattern](#Coordinator-Pattern)
 * [Clean Architecture](#Clean-Architecture)
 <br>
@@ -172,6 +174,17 @@
   > |1| **RIBs** | RIBs란? | [RIBs란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/RIBs/RIBs란%3F.md)|
   > |2| **RIBs** | 공식 문서 정리 | [RIBs 공식 문서](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/RIBs/RIBs%20공식%20문서%20정리.md) |
   > |2| **RIBs** 로그인 코드 예제 | 실전 적용 | |
+
+<br>
+
+## <a id="ReactorKit"></a>RIBs Design Pattern
+
+<br>
+
+* **챕터 I: ReactorKit 프레임워크**
+  > | 순서 | 제목 | 내용 | 예제 코드 |
+  > |:---:| :--- | :--- | :--- |
+  > |1| **ReactorKit** | ReactorKit란? | |
 
 <br>
 
