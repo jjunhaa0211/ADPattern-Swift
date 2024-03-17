@@ -177,7 +177,7 @@
 
 <br>
 
-## <a id="ReactorKit"></a>RIBs Design Pattern
+## <a id="ReactorKit"></a>ReactorKit
 
 <br>
 
