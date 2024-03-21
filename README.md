@@ -19,6 +19,7 @@
 ### 목차
 
 * [GoF Design Pattern](#GoF-Design-Pattern)
+* [KVO](#KVO)
 * [MVC Design Pattern](#MVC-Design-Pattern)
 * [MVVM Design Pattern](#MVVM-Design-Pattern)
 * [MVP Design Pattern](#MVP-Design-Pattern)
@@ -80,6 +81,18 @@
   > |8| - | **State** | - |
   > |9| - | **Strategy** | - |
   > |10| - | **Visitor** | - |
+
+<br>
+
+## <a id="KVO"></a>KVO Cocoa 프레임워크
+
+<br>
+
+* **챕터 I: KVO**
+  > | 순서 | 제목 | 내용 | 예제 코드 |
+  > |:---:| :--- | :--- | :--- |
+  > |1| KVO란? |  | 없음 |
+
 
 <br>
 
