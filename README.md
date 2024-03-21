@@ -19,6 +19,7 @@
 ### 목차
 
 * [GoF Design Pattern](#GoF-Design-Pattern)
+* [KVO](#KVO)
 * [MVC Design Pattern](#MVC-Design-Pattern)
 * [MVVM Design Pattern](#MVVM-Design-Pattern)
 * [MVP Design Pattern](#MVP-Design-Pattern)
@@ -26,6 +27,8 @@
 * [Flux Design Pattern](#Flux-Design-Pattern)
 * [Redux Design Pattern](#Redux-Design-Pattern)
 * [VIPER Design Pattern](#VIPER-Design-Pattern)
+* [RIBs Design Pattern](#RIBs-Design-Pattern)
+* [ReactorKit](#ReactorKit)
 * [Coordinator Pattern](#Coordinator-Pattern)
 * [Clean Architecture](#Clean-Architecture)
 <br>
@@ -78,6 +81,18 @@
   > |8| - | **State** | - |
   > |9| - | **Strategy** | - |
   > |10| - | **Visitor** | - |
+
+<br>
+
+## <a id="KVO"></a>KVO Cocoa 프레임워크
+
+<br>
+
+* **챕터 I: KVO**
+  > | 순서 | 제목 | 내용 | 예제 코드 |
+  > |:---:| :--- | :--- | :--- |
+  > |1| KVO란? |  | 없음 |
+
 
 <br>
 
@@ -172,6 +187,17 @@
   > |1| **RIBs** | RIBs란? | [RIBs란?](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/RIBs/RIBs란%3F.md)|
   > |2| **RIBs** | 공식 문서 정리 | [RIBs 공식 문서](https://github.com/jjunhaa0211/ADPattern-Swift/blob/main/RIBs/RIBs%20공식%20문서%20정리.md) |
   > |2| **RIBs** 로그인 코드 예제 | 실전 적용 | |
+
+<br>
+
+## <a id="ReactorKit"></a>ReactorKit
+
+<br>
+
+* **챕터 I: ReactorKit 프레임워크**
+  > | 순서 | 제목 | 내용 | 예제 코드 |
+  > |:---:| :--- | :--- | :--- |
+  > |1| **ReactorKit** | ReactorKit란? | |
 
 <br>
 
